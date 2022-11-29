@@ -1,0 +1,35 @@
+#header{
+    background-color: rgb(171, 196, 218);
+}
+
+#logo{
+    height: 100px;
+}
+
+#name{
+text-align: center;
+}
+
+.flex{
+    display: flex;
+    width: max-content;
+    margin: auto;
+}
+#nav{
+    margin-top: 20px;
+    background-color: rgb(26, 137, 235);
+}
+#nav button{
+    border:none;
+    font-size: 20px;
+    color: white;
+    background-color: inherit;
+    margin-right: 50px;
+}
+#carousel{
+    background-color: rgb(24, 130, 179);
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 20px;
+}
