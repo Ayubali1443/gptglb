@@ -5,42 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>regester</title>
-    <style>
-*{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    /* background-color: lightblue; */
-
-}
-body{
-    background-color: lightblue;
-}
-.input{
-    margin-top: 30px;
-}
-.input textarea{
-    text-align: left;
-}
-.input label{
-    margin-right: 13%
-}
-    </style>
+   <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <br><br>
+    <div class="main">
+        
     <header>
         <h1>Register</h1>
     </header>
-    <div class="input">
-        
-        Student<input type="radio"> Admain <input type="radio">
+    
+        <div class="input">
+     Student  <input type="radio" name="select" class="space"> Admain <input type="radio" name="select" class="space">
         <br>
         <br>
-        Full Name : <input type="text"width:60%>
+        Full Name : <input type="text" placeholder="Enter your full name" width: 10vw; class="god">
         <br><br>
-        Reg No : <input type="text"width:60%>
+        Reg No : <input type="text" class="god" placeholder="Enter your reg no">
         <br><br>
-        <select >
+        <select class="lol">
             <option >Course</option>
             <option >CS</option>
             <option >ME</option>
@@ -49,7 +32,7 @@ body{
             <option >IS</option>
             <option >Civil</option>
         </select>
-        <select >
+        <select  class="lol">
             <option >sem</option>
             <option >1th</option>
             <option >2ed</option>
@@ -59,19 +42,22 @@ body{
             <option >6th</option>
         </select>
         <br><br>
-        Gender : Male <input type="radio">Female <input type="radio">Others<input type="radio">
+        Gender : Male <input type="radio" id="1" name="gender" class="space" >    Female <input type="radio" name="gender" class="space">Others<input type="radio" name="gender" class="space">
         <br><br>
-        <label for="">Address :</label><br>
-        <textarea name="Addres" id="" cols="30" rows="10">Address</textarea>
-        <br><br>
-        Email : <input type="text" width="60%">
-        <br><br>
-        Phone : <input type="text" width="60%">
-        <br><br>
-        <input type="submit">
         
-    
+       
+        Email : <input type="text" width="80%"class="god"placeholder="Enter your email ">
+        <br><br>
+        Phone : <input type="text" width="80%" value="+91"class="god"placeholder="Enter your phone no">
+        <br><br>
+        Password : <input type="password" class="god" placeholder="Enter your password">
+        <br><br>
+       Confrom Password : <input type="password" class="god"placeholder="Confrom password">
+       <br><br>
+        <button>submit</button>
+        
     </div>
     
+    </div>
 </body>
 </html>
