@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.main{
+    background-color: rgb(159, 152, 152);
+    width: 30%;
+   margin-left: 35%;
+    border-radius: 10px;
+      padding: 30px;
+    margin-top: 5%;
+    box-shadow: 2px 2px 15px ;
+
+}
+.main h1{
+    text-align: center;
+}
+.log{
+    margin-left: 30%;
+    
+}
+.log input{
+    display: block;
+    padding: 3px;
+    border: solid black;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    background: transparent;
+    width: 70%;
+    
+
+
+}
+.log button{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    padding: 4px;
+    border-radius: 5px;
+    background-color:  #337ab7;
+    border: inherit;
+    width: 30%;
+}
+.tex{
+    text-align: center;
+}
